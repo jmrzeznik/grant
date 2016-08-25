@@ -1,0 +1,63 @@
+Tables:
+ - User
+   -ID
+   -Type (Family/Admin)
+   -FirstName (Admin)
+   -LastName
+   -Email
+   -Password
+ - Student
+   -ID
+   -FamilyID
+   -FirstName
+   -Email
+ - Attendance
+   -ID
+   -Date
+   -LastName
+   -FirstName
+   -Email
+   -Communion (Y/N)
+   -BSAttendance (Y/N)
+ - Bible Study
+   -ID
+   -AttendanceID
+   -Date
+   -Type (Dropdown)
+   -Activity
+   -Comments
+
+Models:
+ - User (Family/Student)
+ - Attendance (Attendance/Bible Study)
+ - Bible Study
+ - Student
+
+Controllers:
+ - User
+ - Attendance
+
+Views:
+ - Login
+ - Registration
+ - Add child
+ - Student Form
+ - Student View
+ - Admin Term Select
+ - Admin View
+
+Routes:
+ - Login
+   -Display Form
+   -Send Form Data
+ - Registration
+   -Display Form
+   -Send Form Data
+ - New Child
+   -Display Form
+   -Send Form Data
+ - Display (Home) - Defaults to latest term
+ - Change Term
+ - New Attendance Entry
+   -Display Form
+   -Send Form Data

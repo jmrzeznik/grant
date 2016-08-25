@@ -1,0 +1,29 @@
+St John's Scholarship Application
+
+Features:
+ - Family creates accounts
+ - Family can add new child
+ - Students enter attendance entries
+ - Students can view entries
+ - Lori (Admin) can view all entries
+ - Admin can select term
+ - Admin can delete any entry (for duplicates)
+ - Sort by last name - display: first last
+ - Admin can export data to Excel
+
+Sections:
+ - Login/Registration (Family/Admin)
+ - Add Student
+ - Student Forms
+ - Student Display
+ - Admin Dislay
+
+Languages:
+-PHP (with Blade)
+-JavaScript/jQuery
+-HTML/CSS (SASS)
+
+Environment:
+-Laravel Framework
+-Local WAMP Server
+-PHPMyAdmin - MySQL (DB)

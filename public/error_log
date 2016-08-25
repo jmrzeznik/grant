@@ -1,0 +1,4 @@
+[06-May-2016 16:15:28 UTC] PHP Parse error:  syntax error, unexpected '$prev' (T_VARIABLE) in /home/stjadmin/public_html/grant/app/Http/Controllers/HomeController.php on line 36
+[06-May-2016 16:17:30 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/stjadmin/public_html/grant/app/Http/Controllers/HomeController.php on line 41
+[21-Jun-2016 16:01:16 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/stjwb/public_html/grant/app/Http/Controllers/HomeController.php on line 118
+[05-Aug-2016 11:35:42 America/Chicago] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 13414821 bytes) in /home/stjwb/public_html/grant/vendor/laravel/framework/src/Illuminate/View/Factory.php on line 646
