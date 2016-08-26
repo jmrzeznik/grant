@@ -15,7 +15,7 @@ class CreateBibleStudiesTable extends Migration
         Schema::create('bible_studies', function (Blueprint $table) {
             $table->increments('bibleStudyID');
             $table->integer('attendanceID'); //bible study is an attendance
-            $table->date('date');
+            $table->date('week');
             $table->string('type'); //selection of 4 options
             $table->date('discWeek');
             $table->string('activity');
